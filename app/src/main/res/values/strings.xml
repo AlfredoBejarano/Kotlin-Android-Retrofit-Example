@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Kotlin Retrofit Example</string>
+    <string name="retrieving_information">Retrieving information...</string>
+</resources>
