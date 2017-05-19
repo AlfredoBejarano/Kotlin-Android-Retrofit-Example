@@ -2,7 +2,7 @@ package com.alfredobejarano.kotlinapiexample.presenter
 
 import com.alfredobejarano.kotlinapiexample.view.activity.MainActivity
 import com.alfredobejarano.kotlinapiexample.model.ResponseModel
-import com.alfredobejarano.kotlinapiexample.network.mapper.ResponseModelMapper
+import com.alfredobejarano.kotlinapiexample.service.ResponseModelService
 
 /**
  * This class handles the data retrieved from the HTTP Call and sends it to the view.
@@ -25,6 +25,6 @@ class MainPresenter(view: MainActivity) {
     }
 
     init {
-        ResponseModelMapper(this)
+        ResponseModelService(this)
     }
 }
